@@ -1,0 +1,435 @@
+
+
+
+.clearfix{
+            width: 100%;    
+            height: 0;  
+            clear:both;
+            float:none;
+        }
+
+
+.wrapper{
+    margin: auto;
+    /*background-color: #fff;*/
+}
+
+
+.slider{
+    background-image: url(images/page-06-watchfinder-header-large.jpg);
+    background-size: cover;
+    height:0px;
+    padding-bottom:600px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    position: relative;
+  
+}
+
+
+
+
+/*================================================*/
+
+
+
+
+/*==================================================*/
+.total{
+  overflow: hidden;
+}
+
+
+.father{margin: auto;
+}
+
+
+.f-i{
+    width: 62%; 
+    float:left; 
+    height:0;
+    padding-bottom: 500px;
+    background-image:url(images/ourmaison_innovation_2.jpg.crop.910.1024.jpg);
+    background-size: cover;
+    background-position:top center;
+    box-sizing: border-box;
+    margin-left:-12%; 
+    
+    
+
+}
+
+.f-t{
+    width: 35%;
+    height: 500px;
+    float: left;
+    box-sizing: border-box;
+    padding-left:3%; 
+    font-family:"微軟正黑體";
+
+
+}
+
+.f-t p{
+
+     margin:15px 0; 
+}
+
+.f-t p:first-child{
+     font-weight: bold;
+     font-size: 2rem;
+     color:#41767c;
+}
+
+.f-t p:nth-child(2){
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.f-t p:last-child{
+
+     font-size: 1.2rem;
+     text-indent:1rem;
+     line-height: 1.5rem; 
+}
+
+
+.name{
+   margin: auto;
+  
+}
+
+.n-i{
+    width: 45%;
+    float:right;
+    height:0px;
+    padding-bottom: 500px;
+    background-image:url(images/wildorf_hans_1908_0001_840x770.jpg);
+    background-position:top center;
+    background-size: cover;
+    
+
+
+}
+
+
+
+
+.n-t{
+    width: 50% ;
+    height: 500px;
+    float: right; 
+    padding:5%;
+    box-sizing: border-box;
+    font-family:"微軟正黑體";
+
+
+}
+
+.n-t p{
+
+     margin:15px 0; 
+}
+
+.n-t p:first-child{
+     font-weight: bold;
+    font-size: 2rem;
+    color:#41767c;
+}
+
+.n-t p:nth-child(2){
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.n-t p:last-child{
+
+     font-size: 1.2rem;
+     text-indent:1rem;
+     line-height: 1.5rem; 
+}
+
+
+
+
+
+.watch{margin: auto;}
+
+.w-i{
+    width: 55%;
+    float:left; 
+    height:0;
+    padding-bottom: 500px;
+    background-image:url(images/1955_submariner_0001_1680x700.jpg);
+    background-position:90% 10%; 
+    background-size: cover;
+
+}
+
+.w-t{
+    width: 40%;
+    height: 300px;
+    float: left;
+    box-sizing: border-box;
+    padding:5%;
+    font-family:"微軟正黑體";
+
+}
+
+.w-t p{
+
+     margin:15px 0; 
+}
+
+.w-t p:first-child{
+     font-weight: bold;
+    font-size: 2rem;
+    color:#41767c;
+}
+
+.w-t p:nth-child(2){
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.w-t p:last-child{
+
+     font-size: 1.2rem;
+     text-indent:1rem;
+     line-height: 1.5rem; 
+}
+
+.store{
+    margin: auto;
+}
+
+.s-i{
+    width: 45%;
+    float:right; 
+    height:0;
+    padding-bottom: 500px;
+    background-image:url(images/geneva_0001_840x770.jpg);
+    background-position:top center;
+    background-size: cover;
+
+
+}
+
+.s-t{
+    width: 40%;
+    height: 300px;
+    float: right;
+    padding: 5%;
+    box-sizing: border-box;
+    font-family:"微軟正黑體";
+
+}
+
+.s-t p{
+
+     margin:15px 0; 
+}
+
+.s-t p:first-child{
+    font-weight: bold;
+    font-size: 2rem;
+    color:#41767c;
+}
+
+.s-t p:nth-child(2){
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.s-t p:last-child{
+
+     font-size: 1.2rem;
+     text-indent:1rem;
+     line-height: 1.5rem; 
+}
+
+.keep{
+   
+   margin: auto;
+   margin-bottom: 100px;
+   text-align: left;
+}
+
+.k-i{
+    height: 0;
+    padding-bottom: 300px;
+    position: relative;
+    width: 55%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/first_transcontinental_flights__0001_840x420.jpg); 
+    float: left;
+
+    
+}
+
+
+
+.k-t{
+    width: 40%;
+    height: 300px;
+    padding: 5%;
+    box-sizing: border-box;
+    float: left;
+    font-family:"微軟正黑體";
+
+}
+
+.k-t p{
+
+     margin:15px 0; 
+}
+
+.k-t p:first-child{
+    font-weight: bold;
+    font-size: 2rem;
+    color:#41767c;
+}
+
+.k-t p:nth-child(2){
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.k-t p:last-child{
+
+     font-size: 1.2rem;
+     text-indent:1rem;
+     line-height: 1.5rem; 
+}
+
+.now{
+    text-align:center;
+    font-size: 0; 
+    padding-bottom: 10%;
+}
+.n{ width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+.nt1{
+  width: 30%;
+  background-image:url(images/201604atelierreverso_rubrique_bloc1-gauche.jpg);
+  height: 0px;
+  padding-bottom:600px; 
+  background-position:bottom center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.nt2{
+  width: 30%;
+  background-image: url(images/201604atelierreverso_rubrique_bloc2-droite.jpg);
+  height: 0;
+  padding-bottom:600px; 
+  background-position:5% 50%;  
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.ntt{
+    
+    height: 600px;
+   font-family:"微軟正黑體";
+
+}
+
+
+
+.ntt p{
+
+     margin:15px 20px; 
+}
+
+.ntt p:first-child{
+    font-weight: bold;
+    font-size: 2rem;
+    color:#41767c;
+}
+
+.ntt p:nth-child(2){
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.ntt p:last-child{
+     font-size: 1.2rem;
+     text-indent:1rem;
+     line-height: 1.5rem; 
+
+}
+/*======================================================*/
+
+
+/*小灰手機*/
+        @media screen and (max-width:767px){
+           
+            
+            .slider{background-position:10% 50%; padding-bottom: 300px;}
+            .f-i,.f-t,.n-i,.n-t,.s-i,.s-t,.w-i,.w-t,.k-i,.k-t,.nt1,.ntt,.nt2{
+              width: 100%;
+            }
+
+            .f-t,.n-t,.s-t,.w-t,.k-t,.ntt{
+              padding:20px 10px; 
+              box-sizing: border-box;
+              text-indent: 0;
+            }
+            .f-i{margin-left: 0;}
+            .nt1,.nt2{padding-bottom:400px; }
+            .ntt{height: 300px;}
+
+           
+
+            
+
+        }
+
+        /*小藍平板直*/
+        @media screen and (min-width: 768px) and (max-width: 991px){
+            
+           
+            .txtbox{left:5%; }
+            .slider{padding-bottom: 400px;}
+            .nt1,.nt2{padding-bottom:500px; }
+            
+           
+          
+      
+
+
+        }
+
+        /*小黃平板橫*/
+        @media screen and (min-width: 992px) and (max-width: 1199px){
+
+           .txtbox{left:7%; top:120px;}
+           .f-i{margin-left:-7% }
+           .slider{padding-bottom:500px;}
+            
+            
+
+        }
+        
+      /*小粉桌機*/
+        @media screen and (min-width:1200px){
+           
+            .txtbox{left:5%;}
+            .father{padding-left:10%; }
+            .f-i{margin-left:-12%; }
+            
+            
+        }
+

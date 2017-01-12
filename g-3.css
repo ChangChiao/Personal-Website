@@ -1,0 +1,56 @@
+.pc{
+  background-image: url(images/g-3-0.png);
+}
+
+.side{
+  background-image: url(images/g-3-s.png);
+  background-position:50% 55%; 
+}
+
+.back{
+  
+ background-image: url(images/g-3-b.png);
+}
+
+.heart{
+	background-image: url(images/1111068.png);
+}
+
+
+/*小灰手機*/
+        @media screen and (max-width:767px){
+            
+            
+            
+
+            
+
+        }
+
+        /*小藍平板直*/
+        @media screen and (min-width: 768px) and (max-width: 991px){
+            
+         
+            
+          
+      
+
+
+        }
+
+        /*小黃平板橫*/
+        @media screen and (min-width: 992px) and (max-width: 1199px){
+           
+            
+
+            
+
+        }
+        
+      /*小粉桌機*/
+        @media screen and (min-width: 1200px){
+            
+            
+        }
+
+

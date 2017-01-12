@@ -1,0 +1,141 @@
+
+
+
+.clearfix{
+    clear: both;
+    width: 100%;
+    height: 0;
+}
+.wrapper{
+    margin: auto;
+    
+    background-color: #fff;
+}
+
+.slider{
+    background-image: url(images/SE_Seamaster300_imgTetiere_1600x655.jpg);
+    background-position: top right;
+    padding-bottom:600px; 
+    height:0px;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+
+.watches{
+    text-align:center;
+    box-sizing: border-box;
+    padding-bottom:10%;
+
+}
+.ww{
+    
+    height: 400px;
+    text-align: center;
+    margin: 0 auto; 
+}
+.ww0{
+ 
+     /*width: 300px;*/
+     height:400px;
+     float: left;
+     padding:0 2%;
+     box-sizing: border-box;
+
+}
+.w-i{
+    height: 300px;
+    cursor:pointer;
+}
+
+.w-i img{
+     width: auto;
+     height : auto;
+     max-height: 100%;
+     max-width: 100%;
+     transition:.5s;
+}
+
+.w-i img:hover{
+  transform:scale(1.1); 
+}
+
+
+.ww0 a{
+   text-decoration: none;
+}
+
+.ww0 p:nth-of-type(1){
+    color: #41767c;
+    font-size:1rem; 
+    font-weight: bold;
+    margin-bottom:10px; 
+
+}
+
+.ww0 p:nth-of-type(2){
+    color:#666;
+    font-size: 1rem;
+    font-weight:bold; 
+}
+/*=============================================*/
+
+/*小灰手機*/
+        @media screen and (max-width:767px){
+            
+            
+            
+            .watches{padding-bottom: 100px;}
+            .slider{padding-bottom: 300px;} 
+            .ww0{width: 100%;}
+
+            
+
+            
+
+        }
+
+        /*小藍平板直*/
+        @media screen and (min-width: 768px) and (max-width: 991px){
+            
+            
+            
+            .watches{padding-left:14%;}
+            .slider{padding-bottom: 400px;}
+            .txtbox{left:40%;top:180px;}
+            .ww0{width: 40%;}
+          
+      
+
+
+        }
+
+        /*小黃平板橫*/
+        @media screen and (min-width: 992px) and (max-width: 1199px){
+           
+           
+            .watches{padding-left: 14%;}
+            .slider{padding-bottom: 500px; }
+            .txtbox{left: 45%;}
+            .ww0{width: 28%;}
+
+
+            
+
+        }
+        
+      /*小粉桌機*/
+        @media screen and (min-width:1200px){
+            
+            
+            
+            .watches{padding:0 0 10% 14%; }
+            .txtbox{left: 50%;}
+            .ww0{width: 28%;}
+            
+        }
+
+

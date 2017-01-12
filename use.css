@@ -1,0 +1,264 @@
+
+
+.clearfix{
+    clear: both;
+    width: 100%;
+    height: 0;
+}
+.wrapper{
+    margin: auto;
+    
+    /*background-color: #fff;*/
+}
+
+.slider{
+    background-image: url(images/watchmaking_player_METAS_Large_1600x900.jpg);
+    background-position:top center;
+    background-size: cover;
+    height:0px;
+    padding-bottom:600px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.txtbox{
+
+    
+    left:5%;  
+}
+
+.t-i{
+    
+    height: 300px;
+
+}
+
+.txt{
+    width: 300px;
+    height: 300px;
+    color:#666;
+}
+.book{
+    text-align: center;
+    font-size: 0;
+    margin-bottom: 100px;
+}
+
+.type{
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*img{
+  width: auto;
+  height : auto;
+  max-height: 100%;
+  max-width: 100%;
+}*/
+
+
+
+.aa{
+  background-image:url(images/8888.jpg);
+  background-position:30% 50%;  
+  transition: 1s;  
+}
+.bb{
+  background-image:url(images/hands_on_blanking.jpg.crop.full.high.jpg);
+  background-position:30% 50%;  
+  transition: 1s;  
+}
+.cc{
+  background-image:url(images/SE_PO600m_imgTetiere_1600x655.jpg);
+  background-position:60% 50%;
+  transition: 1s;    
+}
+.dd{
+  background-image:url(images/SP_SkywalkerX33_imgTetiere_1600x655.jpg);
+  background-position:50% 50%;
+  transition: 1s;    
+}
+
+.aa:hover{
+  background-position:40% 50%;
+  transition: 1s;
+}
+
+.aa:hover a{
+ display: block;
+}
+.bb:hover{
+  background-position:40% 50%;
+  transition: 1s;
+}
+.bb:hover a{
+display: block;
+}
+.cc:hover{
+  background-position:70% 50%;
+  transition: 1s;
+}
+.cc:hover a{
+  display: block;;
+}
+.dd:hover{
+  background-position:60% 50%;
+  transition: 1s;
+}
+.dd:hover a{
+display: block;
+}
+
+.t-i a{
+  display: none;
+}
+.txt{
+    text-align: center;
+}
+
+.t-i{
+  margin-top:100px; 
+}
+.t-i p:first-child{
+    font-size: 1.2rem;
+    /*color:#41767c; */
+    color:#fff;
+    font-weight: bold;
+    margin:15px 0; 
+}
+
+.t-i p:nth-child(2){
+    font-size:1rem;
+    color:#ddd;
+    font-family:"微軟正黑體";
+    font-weight: bold;
+    margin:15px 0; 
+}
+
+.t-i a{
+    display: none;
+    text-decoration: none;
+    border: 1px solid #aaa;
+    padding:10px;
+    height: 20px;
+    width: 90px;
+    font-size: 1rem;
+    line-height: 20px;
+    color:#eee; 
+    margin: 100px auto;
+
+}
+.pc{
+    padding-bottom:50px; 
+    text-align: center;
+    font-size: 0;
+
+}
+
+.left{
+  display: inline-block;
+  vertical-align: bottom;
+  height: 180px;
+  width: 40%;
+  background-image: url(images/maintenance_advices_restauration1.jpg.crop.full.high.jpg);
+  background-position:50% 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+} 
+
+.center{
+   display: inline-block;
+   vertical-align: bottom;
+   height: 180px;
+   width: 20%;
+   background-image:url(images/Mantinience_Advice_CHAPTER9.png.crop.full.high.jpg); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+
+
+
+
+
+.right{
+    vertical-align:bottom;
+    display: inline-block;
+    height: 180px;
+    width: 40%;
+    background-image: url(images/Mantinience_Advice_CHAPTER3.png.crop.full.high.png);
+    background-position: 60% 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#book1{display: block;}
+#book2{display: none;}
+
+/*小灰手機*/
+        @media screen and (max-width:767px){
+          .type{width: 23%; height: 200px;
+           }
+          .t-i{width: 100%; margin-top:60px; } 
+          .t-i p:first-child{font-size:0.9rem;} 
+          .t-i p:nth-child(2){font-size: 0.7rem;}
+          .t-i a{font-size:0.7rem; width: 50px;
+            margin-top:60px; display: none; }
+          .center .left .right{height: 100px;}
+          .aa:hover a{display:none;}
+          .bb:hover a{display:none;}
+          .cc:hover a{display:none;}
+          .dd:hover a{display:none;}
+          .txtbox{left:45%;}
+          .slider{padding-bottom: 300px;}
+          #book1{display:none; }
+          #book2{display:block;}
+
+
+  
+
+            
+
+        }
+
+        /*小藍平板直*/
+        @media screen and (min-width: 768px) and (max-width: 991px){
+        .type{width: 20%;}
+        .t-i{width: 100%;}
+        .t-i a{display: block;}
+        .txtbox{height: 300px;}
+        .slider{padding-bottom: 400px;}
+        #book1{display:none; }    
+        #book2{display:block;}
+
+
+        }
+
+        /*小黃平板橫*/
+        @media screen and (min-width: 992px) and (max-width: 1199px){
+          .type{width: 20%;} 
+          .t-i{width: 100%;}
+          .t-i a{display: block;}
+          .slider{padding-bottom: 500px;}
+          #book1{display: none;}
+          #book2{display: block;}
+          
+
+            
+
+        }
+        
+      /*小粉桌機*/
+        @media screen and (min-width:1200px){
+            
+           .type{width: 20%;}
+           .t-i{width: 100%;}
+           /*.t-i a{display: block;}*/
+            #book1{display: block;}
+            #book2{display: none;}
+        }
+    
+

@@ -1,0 +1,125 @@
+.title{
+    height: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #333;
+    margin: 50px 0; 
+    letter-spacing:3px;
+    padding:1rem;
+    font-family:"微軟正黑體";
+
+}
+
+.title h4{
+    
+    padding:1%;
+    word-spacing:1rem;
+    font-weight:bold;   
+}
+
+.title p{
+    font-size:1rem;
+    color:#555;
+    line-height:1rem; 
+}
+
+/*.title:after{
+  
+  content: "";
+  display: block;
+  border: 12px solid #333;
+  border-color:#333 transparent #333 transparent;
+  border-bottom: none; 
+  height: 0;
+  width: 0;
+  margin: 30px  auto;
+
+}*/
+.title:after{
+  
+  content: "";
+  display: block;
+  border: 12px solid #333;
+  border-top: 12px solid rgba(65,118,124,0.5);
+  height: 0;
+  width: 0;
+  margin:20px auto;
+
+}
+
+.txtbox{
+    color: #fff;
+    width: 50%;
+    height:300px;
+    top:100px;
+    position: relative;
+    font-family:"微軟正黑體";
+    /*font-weight:bold; */
+    
+    padding:5%;
+    z-index: 1; 
+    box-sizing: border-box;
+}
+
+.txtbox h4{
+  padding: 3% 0;
+  font-size:2rem ;
+  text-shadow:1px 1px rgba(0,0,0,.5);
+}
+
+.txtbox p{
+    
+    font-size: 1.2rem;
+    color: #ccc;
+    line-height:1.5rem; 
+    text-align: left;
+    text-shadow:1px 1px rgba(0,0,0,.5); 
+}
+
+
+@media screen and (max-width:767px){
+            
+            .txtbox{width: 500px; 
+              top:200px; left:10%;
+              padding-bottom: 300px;
+            }
+            .txtbox h4{
+              font-size: 2rem;
+              box-sizing: border-box;
+              padding:0 3%;
+            }
+
+            .txtbox p{
+               display: none;
+            }
+            .title{
+              margin:25px 0; 
+            }
+            
+
+        }
+
+        /*小藍平板直*/
+        @media screen and (min-width: 768px) and (max-width: 991px){
+            
+              .txtbox{top:130px;left: 30%;}
+              
+
+
+        }
+
+        /*小黃平板橫*/
+        @media screen and (min-width: 992px) and (max-width: 1199px){
+            
+                .txtbox{top:150px;left: 40%;}
+            
+
+        }
+        
+      /*小粉桌機*/
+        @media screen and (min-width:1200px){
+              
+                    .txtbox{top:200px;left: 45%;}
+              
+        }

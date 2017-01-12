@@ -1,0 +1,147 @@
+
+        
+   .wrapper{
+    margin: auto;
+    
+    /*background-color: #fff;*/
+}
+
+.slider{
+    background-image: url(images/submariner_0001_m114060-0002_2550x1427.jpg);
+    background-size: cover;
+    height:0px;
+    padding-bottom:600px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    position: relative;
+  
+}
+
+
+/*============================漢寶寶============================*/
+
+
+
+
+/*=========================================*/
+
+
+
+
+
+
+.watches{
+    text-align:center;
+    box-sizing: border-box;
+    padding-bottom:10%; 
+
+}
+.ww{
+    
+    height: 400px;
+    text-align: center;
+    margin: 0 auto; 
+}
+.ww0{
+ 
+     /*width: 300px;*/
+     height:400px;
+     float: left;
+     padding:0 2%;
+     box-sizing: border-box;
+
+}
+.w-i{
+    height: 300px;
+    cursor:pointer;
+}
+
+.w-i img{
+     width: auto;
+     height : auto;
+     max-height: 100%;
+     max-width: 100%;
+     transition:.5s; 
+}
+
+.w-i img:hover{
+  transform:scale(1.1); 
+}
+.ww0 a{
+   text-decoration: none;
+}
+
+.ww0 p:nth-of-type(1){
+    color: #41767c;
+    font-size:1rem; 
+    font-weight: bold;
+    margin-bottom:10px; 
+
+}
+
+.ww0 p:nth-of-type(2){
+    color:#666;
+    font-size: 1rem;
+    font-weight:bold; 
+}
+/*=============================================*/
+
+/*小灰手機*/
+        @media screen and (max-width:767px){
+            
+            .w2-3{display: none;}
+            /*.wrapper{background-color: #aaa;width: 100%;}*/
+            .watches{padding-bottom: 100px;}
+            .slider{padding-bottom:300px;}
+            .ww0{width:100%;}
+
+
+              
+
+        }
+
+        /*小藍平板直*/
+        @media screen and (min-width: 768px) and (max-width: 991px){
+            
+            .w2-3{display: none;}
+            /*.wrapper{background-color: #0aa;width: 100%;}*/
+            .watches{padding-left:15%;}
+            .txtbox{left:40%;  }
+            .ww0{width:40%;}
+            .slider{padding-bottom:400px;background-size:100%;}
+
+            
+          
+      
+
+
+        }
+
+        /*小黃平板橫*/
+        @media screen and (min-width: 992px) and (max-width: 1199px){
+           
+            /*.wrapper{background-color: #fa0; width: 90%;}*/
+            .w2-3{display: none;}
+            .watches{padding-left:14%;}
+            .ww0{width: 28%;}
+            .txtbox{left:40%; }
+            .slider{padding-bottom:500px;background-size:100%;}
+           
+
+
+            
+
+        }
+        
+      /*小粉桌機*/
+        @media screen and (min-width: 1200px){
+            
+            /*.wrapper{background-color: #faa; width: 80%;}*/
+            .w2-3{display: block;}
+            .watches{padding:0 0 10% 14%; }
+            .txtbox{left:50%; top:200px;}
+            .ww0{width: 28%;}
+            
+        }
+
+

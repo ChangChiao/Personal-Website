@@ -1,0 +1,236 @@
+  
+
+.clearfix{
+      width: 100%;  
+      height: 0;  
+      clear:both;
+      float:none;
+    }
+
+
+
+
+
+
+   .wrapper{
+    margin: auto;
+    
+    /*background-color: #fff;*/
+}
+
+.slider{
+    background-image: url(images/watchmaking_player__master_co_axial_Large_1600x900.jpg);
+    background-size: cover;
+    height:0px;
+    padding-bottom:700px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+  
+}
+
+
+
+
+
+.txtbox{
+ 
+    left:45%;  
+
+}
+/*======================================*/
+
+.wall{
+    width: 100%;
+    height: 0px;
+    padding-bottom: 1000px;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+    font-size: 0;
+}  
+
+.fix{
+    width:30%;
+    height: 200px;
+    display: inline-block;
+    background-image: url(images/hands_on_blanking.jpg.crop.full.high.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+
+}
+
+.fix2{
+  width: 70%;
+  height: 200px;
+  display: inline-block;
+  background-image: url(images/image.scale.621.330.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.center{
+    width: 100%;
+    height: 0;
+    padding-bottom:600px ;
+    overflow:hidden;
+    /*padding: 20px;*/
+    text-align: center;
+    vertical-align: middle;
+}
+
+.center p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#4c7c83;
+    margin:30px 0; 
+
+}
+
+.all{
+    margin:30px auto;
+
+}
+
+.all select {
+   background: transparent;
+   width: 268px;
+   padding: 5px;
+   font-size: 16px;
+   border: 1px solid #ccc;
+   height: 34px;
+   -webkit-appearance: none; /*for chrome*/
+}
+.all {
+   width: 240px;
+   height: 34px;
+   overflow: hidden;
+   background: url(images/arraw.png) no-repeat right #eee;
+}
+
+.pc{
+    overflow: hidden;
+    width:80%;
+    box-sizing:border-box;
+    height: 0;
+    padding-bottom: 80%;
+
+    margin: auto;
+    position: relative;
+    
+}
+
+
+.pc img{
+   
+   height:100%;
+   display: block;
+   width:auto;
+   position: absolute;
+   box-sizing: border-box;
+
+  
+}
+
+iframe{
+    vertical-align: middle;
+    display: block;
+    margin-top: 25px;
+
+}
+
+.fix3{
+    width: 70%;
+    height: 0;
+    padding-bottom: 200px;
+    background-image:url(images/maintenance_advices_1000hours.jpg.crop.full.high.jpg); 
+    background-position: 50% 30%;
+    background-size: 90%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fix4{
+    width: 30%;
+    height: 0;
+    padding-bottom: 200px;
+    display: inline-block;
+    background-image: url(images/hands_on_jewelling.jpg.crop.full.high.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+
+.m-maps{
+   padding:0 25px;  
+   padding-bottom:50px;
+   box-sizing: border-box;
+
+}
+
+.mt{
+  text-align: center;
+  padding: 20px 0;
+
+}
+
+.mt p{
+   padding:10px 0; 
+   font-size: 1.2rem;
+   color:#111;
+   line-height:1.5rem;
+}
+
+.mt p:first-child{
+   color: #41767c;
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+
+.mt p:nth-child(2){
+    
+   font-size: 1.2rem;
+   color:#333;
+   font-weight: bold;
+
+}
+     
+
+     #map,#map2,#map3,#map4{
+       height: 300px;
+       margin: auto; 
+       width: 300px;  
+       margin-bottom: 100px;
+     }
+
+       @media screen and (max-width:767px){
+          
+           .m-maps{display: block;}
+            #chartdiv{display: none;}
+           .slider{padding-bottom:300px;}
+
+        }
+        
+        @media screen and (min-width:768px){
+            .m-maps{display: block;}
+             #chartdiv{display: none;}
+            .txtbox{left:25%; }
+            .slider{padding-bottom:400px;}
+        }
+        @media screen and (min-width: 970px){
+            .m-maps{display: none;}
+            #chartdiv{display:block;}
+            .txtbox{left:40%;top:100px; }
+            .slider{padding-bottom:500px;}
+        }
+        @media screen and (min-width:1200px){
+            .txtbox{left:50%;top:200px; }
+            .m-maps{display:none;}
+            #chartdiv{display:block;}
+            .slider{padding-bottom:600px;}
+        }

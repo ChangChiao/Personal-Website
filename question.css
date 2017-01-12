@@ -1,0 +1,350 @@
+        
+/*div{
+  outline: 1px solid #f00;
+}*/
+
+.clearfix{
+    clear: both;
+    width: 100%;
+    height: 0;
+}
+.wrapper{
+    margin: auto;
+    text-align: center;
+    font-size: 0;
+    /*background-color: #fff;*/
+}
+
+.slider{
+    background-image: url(images/homepage_find_your_rolex_0002_1680x1070.jpg);
+    background-position:center left;
+    width: 100%;
+    height:0px;
+    padding-bottom: 600px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.txtbox{
+   
+   top:300px;
+  
+    width: 500px;  
+     
+}
+
+.l-p,.r-p{
+  display: inline-block; 
+  vertical-align: top;
+  width: 15%;
+  height: 1000px;
+  position: relative;
+  overflow: hidden; 
+  margin-top:50px;
+}
+
+.l-p{
+  /*background-image:url(images/E-9-0.png); */
+  background-size:300%;
+  position:top left;
+  background-repeat: no-repeat;  
+ 
+}
+
+.l-p img{
+  position: absolute;
+  top:0;
+  left:-130%; 
+}
+
+.r-p{
+  /*background-image:url(images/t-4-0.png); */
+  background-size:300%;
+  position:50% 50%;
+  background-repeat: no-repeat;  
+}
+
+
+.r-p img{
+  position: absolute;
+  top:0;
+  left:-130%; 
+}
+
+.total{
+    margin-top:50px;
+    margin-bottom: 100px;
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+}
+.qq{
+    text-align: center;
+    margin: 5px;
+}
+
+.qq {
+    display: block;
+    cursor: pointer;
+    background-color: #666;
+    width: 90%;
+    height: 100px;
+    text-decoration: none;  
+    line-height:100px; 
+    margin:auto;
+    color:#fff;
+    text-shadow: 0px 1px #aaa;
+    font-size: 18px;
+    transition: 1s;
+    transform: scale(1,1);
+    font-family:"微軟正黑體";
+    /*border-radius:15px 15px 15px  15px/15px 15px 15px 15px; */
+    border-radius: 15px;
+    box-shadow:2px 2px 2px rgba(0,0,0,.5);
+}
+
+.qq:hover{
+    transform: scale(1.05,1.05);
+    transition: 1s;
+}
+
+.aa{
+  border-radius: 50%;
+}
+
+.aa p{
+    margin:15px;
+}
+
+.total{
+    
+    background-attachment: fixed;
+    background-size:contain; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family:"微軟正黑體";
+}
+
+#uniquename p{
+   width: 80%;
+   height: 100px;
+   font-size: 1rem;
+   line-height: 1.2rem;
+   margin:auto;
+   padding: 20px 20px;
+   text-align: left;
+   background-color:rgba(65,118,124,1);
+   color: #fff;
+   border-radius:20px; 
+    font-family:"微軟正黑體";
+    
+}
+
+
+#uniquename2 p{
+   width: 80%;
+   height: 100px;
+   font-size: 1rem;
+   line-height: 1.2rem;
+   margin:auto;
+   padding: 20px 20px;
+   text-align: left;
+   background-color:rgba(65,118,124,0.9);
+   color: #fff;
+   border-radius:20px;
+    font-family:"微軟正黑體"; 
+   
+}
+
+#uniquename3 p{
+   width: 80%;
+   height: 100px;
+   font-size: 1rem;
+   line-height: 1.2rem;
+   margin:auto;
+   padding: 20px 20px;
+   text-align: left;
+   background-color:rgba(65,118,124,0.8);
+   color: #fff;
+   border-radius:20px;
+    font-family:"微軟正黑體"; 
+   
+
+}
+
+#uniquename4 p{
+   width: 80%;
+   font-size: 1rem;
+   height: 100px;
+   line-height: 1.2rem;
+   margin:auto;
+   padding: 20px 20px;
+   text-align: left;
+   background-color:rgba(65,118,124,0.7);
+   color: #fff;
+   border-radius:20px; 
+    font-family:"微軟正黑體";
+}
+  
+
+
+#uniquename5 p{
+   width: 80%;
+   height: 100px;
+   font-size: 1rem;
+   line-height: 1.2rem;
+   margin:auto;
+   padding: 20px 20px;
+   text-align: left;
+    background-color:rgba(65,118,124,0.6);
+    color: #fff;
+    border-radius:20px; 
+     font-family:"微軟正黑體";
+   
+
+}
+
+#uniquename6 p{
+   width: 80%;
+   height: 100px;
+   font-size: 1rem;
+   line-height: 1.2rem;
+   margin:auto;
+   padding: 20px 20px;
+   text-align: left;
+   background-color:rgba(65,118,124,0.5);
+   color: #fff;
+   border-radius:20px;
+    font-family:"微軟正黑體"; 
+   
+
+}
+
+#uniquename7 p{
+   width: 80%;
+   height: 100px;
+   font-size: 1rem;
+   line-height: 1.2rem;
+   margin:auto;
+   padding: 20px 20px;
+   text-align: left;
+   background-color:rgba(65,118,124,.4);
+   color: #fff;
+   border-radius:20px;
+    font-family:"微軟正黑體"; 
+   
+}
+
+#uniquename8 p{
+   width: 80%;
+   height: 100px;
+   font-size: 1rem;
+   line-height: 1.2rem;
+   margin:auto;
+   padding: 20px 20px;
+   text-align: left;
+   background-color: rgba(65,118,124,.3);
+   color: #fff;
+   border-radius:20px; 
+    font-family:"微軟正黑體";
+ 
+
+}
+
+#uniquename9 p{
+   width: 80%;
+   height: 100px;
+   font-size: 1rem;
+   line-height: 1.2rem;
+   margin:auto;
+   padding: 20px 20px;
+   text-align: left;
+   background-color:rgba(65,118,124,.2);
+   color: #fff;
+   border-radius:20px;  
+    font-family:"微軟正黑體";
+    
+
+}
+
+#q1 {
+    background-color:rgba(65,118,124,1);
+}
+
+#q2 {
+    background-color:rgba(65,118,124,0.9);
+
+}
+
+#q3 {
+    background-color:rgba(65,118,124,0.8);
+}
+
+#q4 {
+    background-color:rgba(65,118,124,0.7);
+}
+
+#q5 {
+    background-color:rgba(65,118,124,0.6);
+}
+
+#q6 {
+    background-color:rgba(65,118,124,0.5);
+}
+
+#q7 {
+    background-color:rgba(65,118,124,0.4);
+}
+
+#q8 {
+    background-color: rgba(65,118,124,0.3);
+}
+
+#q9 {
+    background-color: rgba(65,118,124,0.2);
+}
+
+
+
+
+        @media screen and (max-width:767px){
+           #uniquename p,#uniquename2 p,#uniquename3 p
+           ,#uniquename4 p,#uniquename5 p,#uniquename6 p,
+           #uniquename7 p,#uniquename8 p,#uniquename9 p{
+            height: 150px;
+            font-size: 0.9rem;
+           }
+           .qq a{font-size: 0.9rem;}
+           .qq{width: 100%;}
+           .slider{padding-bottom:300px;background-size:150%;  }
+           .txtbox{top:180px;}
+           .wrapper{height:auto; }
+           .total{background-image:none;width: 90%;}
+           .l-p,.r-p{display: none;}
+        }
+        
+        @media screen and (min-width: 768px) and (max-width: 991px){
+            .qq{width: 100%;}
+            .slider{padding-bottom: 400px; }
+            .txtbox{top:150px;}
+            .wrapper{height:auto; }
+            .total{background-image:none;width: 90%;}
+            .l-p,.r-p{display: none;}
+        }
+        @media screen and (min-width: 992px) and (max-width: 1199px){
+            .slider{padding-bottom: 500px;}
+            .txtbox{top:180px;}
+            .total{background-image:none;}
+        }
+        @media screen and (min-width:1200px){
+            /*.total{background-image: url(images/santax2.png);}*/
+       }
+
+
+
+
+
+            
+     

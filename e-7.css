@@ -1,0 +1,50 @@
+.pc{
+  background-image: url(images/E-7-0.png);
+}
+
+.side{
+  background-image: url(images/e-7-s.png);
+}
+
+.back{
+  
+ background-image: url(images/e-7-b.png);
+}
+
+.heart{
+	background-image: url(images/1333036.png);
+}
+        @media screen and (max-width:767px){
+            
+            
+            
+
+            
+
+        }
+
+        /*小藍平板直*/
+        @media screen and (min-width: 768px) and (max-width: 991px){
+            
+         
+            
+          
+      
+
+
+        }
+
+        /*小黃平板橫*/
+        @media screen and (min-width: 992px) and (max-width: 1199px){
+           
+            
+
+            
+
+        }
+        
+      /*小粉桌機*/
+        @media screen and (min-width: 1200px){
+            
+            
+        }

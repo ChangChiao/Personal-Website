@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+            
+           $('body').append('<table id="final"></table>');
+            
+			
+           $('.f1').click(function(){
+           	  var item1 = $(this).text(); 
+           	  var content = $('#final').html();
+           	  
+           	  if(content.indexOf("<th>Coffee</th>") != -1 ){
+
+                  $('<td>'+item1+'</td>').appendTo('.tr1');
+           	  }
+           	  else{
+           	  	$('#final').append("<tr class='tr1'><th>Coffee</th><td>"+item1+"</td>");
+           	  	
+           	  }
+
+           	  
+           });
+
+           $('.f2').click(function(){
+			  var item2 = $(this).text(); 
+           	  var content = $('#final').html();
+           	 
+           	  if(content.indexOf("<th>Deli</th>") != -1 ){
+                  $('<td>'+item2+'</td>').appendTo('.tr2');
+           	  }
+           	  else{
+           	  	$('#final').append("<tr class='tr2'><th>Deli</th><td>"+item2+"</td>");
+
+           	  }
+           });
+
+           $('.f3').click(function(){
+           	  var item3 = $(this).text(); 
+           	  var content = $('#final').html();
+           	 
+           	  if(content.indexOf("<th>Bread</th>") != -1 ){
+                  $('<td>'+item3+'</td>').appendTo('.tr3');
+           	  }
+           	  else{
+           	  	$('#final').append("<tr class='tr3' ><th>Bread</th><td>"+item3+"</td>");
+           	  }
+           });
+
+           $('.f4').click(function(){
+           	  var item4 = $(this).text(); 
+           	  var content = $('#final').html();
+           	 
+           	  if(content.indexOf("<th>Condiments</th>") != -1 ){
+                  $('<td>'+item4+'</td>').appendTo('.tr4');
+           	  }
+           	  else{
+           	  	$('#final').append("<tr class='tr4' ><th>Condiments</th><td>"+item4+"</td>");
+           	  }
+           });
+
+
+
+		});
+	</script>
+
+	<style type="text/css">
+		*{
+			font-family:verdana; 
+		}
+
+		table,tr,td,th{
+			border:1px solid steelblue;
+
+		}
+	</style>
+</head>
+<body>
+    <h4>請選擇：</h4>
+    
+    <h6>Coffee</h6>
+    <button class="food f1">latte</button>
+    <button class="food f1">herbal tea</button>
+    <button class="food f1">cafe au lait</button>
+    <button class="food f1">coffee</button>
+    
+    <hr>
+
+    <h6>Bread</h6>
+    <button class="food f2">rolls</button>
+    <button class="food f2">dount</button>
+    <button class="food f2">bagel</button>
+    <button class="food f2">pretzel</button>
+    
+    <hr>
+    
+    <h6>Deli</h6>
+	<button class="food f3">potato saland</button>
+	<button class="food f3">turkey</button>
+	<button class="food f3">roast beef</button>
+	<button class="food f3">Swiss cheese</button>
+
+	<hr>
+
+	<h6>Condiments</h6>
+	<button class="food f4">mustard</button>
+	<button class="food f4">salt</button>
+	<button class="food f4">pepper</button>
+	<button class="food f4">spices</button>
+
+	<hr>
+ 	
+
+</body>
+</html>

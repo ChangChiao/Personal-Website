@@ -1,0 +1,50 @@
+.pc{
+  background-image: url(images/t-2-0.png);
+}
+
+.side{
+  background-image: url(images/t-2-s.png);
+}
+
+.back{
+  
+ background-image: url(images/t-2-b.png);
+}
+
+/*小灰手機*/
+        @media screen and (max-width:767px){
+            
+            
+            
+
+            
+
+        }
+
+        /*小藍平板直*/
+        @media screen and (min-width: 768px) and (max-width: 991px){
+            
+         
+            
+          
+      
+
+
+        }
+
+        /*小黃平板橫*/
+        @media screen and (min-width: 992px) and (max-width: 1199px){
+           
+            
+
+            
+
+        }
+        
+      /*小粉桌機*/
+        @media screen and (min-width: 1200px){
+            
+            
+        }
+
+

@@ -1,0 +1,162 @@
+
+
+
+
+.f{
+    position: relative;
+}
+.footer{
+    height:250px;
+    background-color: #555;
+    text-align: center;
+    font-size: 0;
+    font-family:"微軟正黑體"; 
+    /*display: none;*/
+}
+.map{
+    width: 15%;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+.down{
+
+    text-align:center;
+    font-size: 1vw;
+    color: #fff;
+    width: 100%;
+    
+    
+}
+
+
+.map{
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    text-decoration:none;
+    padding-top:15px;
+
+}
+.map p{
+    padding:15px 0;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family:"微軟正黑體";
+    text-align:left; 
+    color: #fff; 
+
+
+}
+
+.map a{
+    text-decoration: none;
+    font-size: 0.75rem;
+    color: #ccc;
+    font-family:"微軟正黑體"; 
+    display:inline-block;
+    padding:5px 0;  
+}
+
+.map>ul>li{
+    text-align:left;
+}
+
+
+
+.Community{
+    text-align: center;
+    font-size: 0;
+    width: 30%;
+    padding-top:2%;
+
+}
+
+.icon li{
+    display:inline-block;
+    vertical-align:top;
+    margin: 10px;
+}
+
+.icon {
+    
+}
+
+
+
+.footer2{
+  z-index: 2;
+  height: 100px;
+  background-color:#555;
+  font-family:"微軟正黑體";
+   margin: auto;  
+   display:none;
+   width: 100%;
+}
+
+.map2{
+    position:relative;
+    top:0;
+    width: 100%;
+    text-align: center;
+    padding-top:1rem; 
+
+}
+
+
+
+.down2{
+    width:100%;
+    color:#fff;
+    font-size: 0.75rem;
+    padding-top:1rem;
+    text-align: center; 
+}
+
+/*小灰手機*/
+        @media screen and (max-width:767px){
+            .footer{display:none;}
+            .footer2{display:block;}
+         
+           
+
+            
+
+        }
+
+        /*小藍平板直*/
+        @media screen and (min-width: 768px) and (max-width: 991px){
+      
+           
+            .footer{display: none;}
+            .footer2{display: block;}
+            
+           
+          
+      
+
+
+        }
+
+        /*小黃平板橫*/
+        @media screen and (min-width: 992px) and (max-width: 1199px){
+     
+            .footer{display: block;}
+            .footer2{display:none; }
+     
+        
+
+
+            
+
+        }
+        
+      /*小粉桌機*/
+        @media screen and (min-width:1200px){
+            
+            .footer{display:block;}
+            .footer2{display:none; }
+           
+            
+        }

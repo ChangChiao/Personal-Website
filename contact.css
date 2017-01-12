@@ -1,0 +1,211 @@
+.clearfix{
+    clear: both;
+    width: 100%;
+    height: 0;
+}
+.wrapper{
+    margin: 0 auto;
+   
+    /*background-color: #fff;*/
+}
+
+.slider{
+    background-image: url(images/watchmaking_player_co_axial_Large_1600x900.jpg);
+    background-position: top right;
+    padding-bottom:600px; 
+    height:0px;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.step{
+width: 100%;
+height: 300px; 
+text-align: center;
+font-size: 0px;
+padding:5px 0; 
+}
+
+.step:hover .s-t{
+   background-color:#111; 
+}
+
+.step:hover .s-i:before{
+   opacity:0;  
+}
+
+
+
+.s-i{
+    display:inline-block;
+    vertical-align: top; 
+    padding-bottom:300px;
+    height: 0;
+    width: 70%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    transition: .5s;
+    position: relative;   
+}
+
+.s-i:before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.6);
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 5;
+    opacity:1;
+    transition: .5s; 
+
+}
+
+
+
+
+.s-t{
+    display:inline-block;
+    vertical-align: top; 
+    height: 300px;
+    color: #fff;
+    background-color:#444;
+    width: 30%; 
+    text-align: left; 
+    box-sizing:border-box;
+    padding:15px;
+    font-family:"微軟正黑體";   
+}
+.s-t p{
+    padding:15px 0;
+    line-height:1.5rem;  
+}
+.s-t p:first-child{
+    font-size: 3rem;
+    color:#fff;
+    /*font-weight:bold;*/
+    font-family: verdana; 
+    padding:10px 0px;
+}
+
+
+.s-t p:nth-child(2){
+    font-size: 1.5rem;
+    line-height:1.5rem;  
+    color:#ddd;
+
+}
+
+.s-t p:nth-child(3){
+    font-size: 1rem;
+    line-height:20px; 
+    color:#bbb;
+
+}
+
+
+
+.s2-i,.s2-t,.s4-t,.s4-i,.s6-i,.s6-t,.s8-i,.s8-t{
+    float: right;
+}
+
+.s1-i,.s1-t,.s3-t,.s3-i,.s5-i,.s5-t,.s7-i,.s7-t,.s9-i,.s9-t{
+    float: left;
+}
+
+.s1-i{
+  background-image:url(images/do-1.jpg);
+  background-position:50% 50%;  
+}
+.s2-i{
+  background-image:url(images/do-2.jpg); 
+  background-position:30% 50%;
+}
+.s3-i{
+  background-image:url(images/do-3.jpg); 
+  background-position:30% 70%;
+
+}
+.s4-i{
+  background-image:url(images/do-5.jpg);
+  background-position:50% 60%;
+ 
+}
+.s5-i{
+  background-image:url(images/do-4.jpg); 
+   background-position:50% 40%;
+}
+.s6-i{
+  background-image:url(images/do-6.jpg);
+  background-position:50% 30%; 
+}
+
+.s7-i{
+  background-image:url(images/do-7.jpg);
+  background-position:50% 30%;  
+}
+
+.s8-i{
+ background-image:url(images/do-8.jpg);
+ background-position:50% 70%; 
+}
+
+.s9-i{
+ background-image:url(images/do-all.jpg);
+ background-position:50% 50%; 
+}
+        
+.s9-i,.s9-t{width: 100%;}
+
+.s9-i{
+  height: 600px;
+  position: relative;
+}
+
+.s9-t{
+  text-align: center;padding:15px 10%; 
+  background-color:rgba(0,0,0,.5);
+  position: relative; 
+  top:45%;
+}
+
+.s9-t p:nth-child(3){
+   text-align: left;
+}
+
+        @media screen and (max-width:767px){
+          
+           
+           .slider{padding-bottom:300px;} 
+           .txtbox{top:210px;left:50%;}
+           .s-i,.s-t{width: 100%;}
+           .s-i:before{display:none; }
+           
+              
+           
+        }
+        
+        @media screen and (min-width: 768px) and (max-width: 991px){
+            .txtbox{left:10%; height: 300px;}
+            .slider{padding-bottom:400px;  }
+            .txtbox{top:120px;left:40%; }
+            .s-t{height: 350px;}
+            .s-i{padding-bottom:350px; }
+            .s-i:before{display:none; }
+
+        }
+        @media screen and (min-width: 992px) and (max-width: 1199px){
+            .slider{padding-bottom:500px;}
+            .txtbox{top:100px;left:50%; }
+            .s-i:before{display:none; }
+        }
+        @media screen and (min-width:1200px){
+            .txtbox{left:5%; }
+
+        }           
+          
+           

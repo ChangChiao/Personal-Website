@@ -1,0 +1,59 @@
+.pc{
+  background-image: url(images/d-1-0.png);
+}
+
+.side{
+  background-image: url(images/d-1-s.png);
+}
+
+.back{
+  
+ background-image: url(images/d-1-b.png);
+}
+
+/*小灰手機*/
+        @media screen and (max-width:767px){
+            
+          /*.back,.b-t{background-color:transparent; }*/
+          .back-all{height: 700px;} 
+          .side-all{height: 700px;}
+       
+
+            
+
+        }
+
+        /*小藍平板直*/
+        @media screen and (min-width: 768px) and (max-width: 991px){
+            
+              .heart-all{background-color:rgba(65,118,124,0.5); 
+              height: 400px;
+            }
+            
+         
+
+        }
+
+        /*小黃平板橫*/
+        @media screen and (min-width: 992px) and (max-width: 1199px){
+           
+            .heart-all{background-color:rgba(65,118,124,0.5); 
+              height: 400px;
+            }
+           
+            
+
+        
+        }
+        
+      /*小粉桌機*/
+        @media screen and (min-width: 1200px){
+            
+            .heart-all{background-color:rgba(65,118,124,0.5); 
+              height: 400px;
+            }
+             
+        }
+            
+
+
